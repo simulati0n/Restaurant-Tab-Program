@@ -2,47 +2,9 @@
 // --------------------------------------------------------
 // This program allows customers to order items from a
 // restaurant's menu and display the orders placed and
-// the final check. (Main dishes only, not drinks/desserts)
+// the final check.
 //
 // The restaurant is assumed to only have tables for four.
-// --------------------------------------------------------
-// Menu Item Info
-// item_name, item_ID, num_calories, price, heart_healthy
-//
-// NOTE: item ID not displayed to user, used internally.
-// ........................................................
-// The menu should be displayed as follows:
-// ........................................................
-// MENU
-// 1 - Braised Short Ribs (450 cal.) $26.00
-// 2 - Baked Salmon (260 cal.) (Heart Healthy) $23.50
-// 3 - Scallop Risotto (340 cal.) $22.50
-// etc.
-// ........................................................
-// The check should be displayed as follows:
-// ........................................................
-// ORDERS
-// Baked Salmon $23.50
-// Scallop Risotto $22.50
-// Braised Short Ribs $26.00
-// Braised Short Ribs $26.00
-//
-// SUBTOTAL (before tax)      $34.00
-// TAX (6%)                    $2.04
-// TOTAL                      $36.04
-//
-// RECOMMENDED TIPS
-// 10% $3.60                  $39.64
-// 15% $5.41                  $41.45
-// 20% $7.21                  $43.25
-// --------------------------------------------------------
-// User Options
-// 1 - Display menu
-// 2 - Place order
-// 3 - Display orders
-// 4 - Request check
-// 5 - Quit
-// --------------------------------------------------------
 import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.util.Random;
